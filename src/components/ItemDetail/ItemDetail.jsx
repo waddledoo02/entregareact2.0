@@ -1,14 +1,20 @@
 
-import Title from '../Title/Title';
-import ItemCount from '../ItemCount/ItemCount';
-import React,{useState,useEffect} from 'react'
-const ItemDetail = (props) => {
+import React from 'react'
+import ItemCount from '../ItemCount/ItemCount'
+
+const ItemDetail = ({product}) => {
+
   const onAdd = (quantity) => {
     console.log(`Compraste ${quantity} unidades`);
-    return (
-      <><Title greeting={props.texto}></Title>
-        <ItemCount initial={1} stock={5} onAdd={onAdd}></ItemCount></>
-    )
   }
+
+  return (
+    <div>
+      <h1>{product.title}</h1>
+      <img src={product.image} alt="" />
+      <ItemCount initial={1} stock={5} onAdd={onAdd} />
+    </div>
+  )
 }
+
 export default ItemDetail

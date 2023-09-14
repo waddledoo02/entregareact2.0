@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Title from '../Title/Title'
+
 import ItemList from '../ItemList/ItemList'
 import laptopnormal from '../Item/imagenes/laptopnormal.png'
 import telefono from '../Item/imagenes/telefono.jpg'
@@ -34,7 +34,7 @@ getData.then(res => setData(res));
 
   return (
     <>
-    <Title greeting={props.texto}></Title>
+    
       <ItemList data ={data}></ItemList>
     </>
   )
