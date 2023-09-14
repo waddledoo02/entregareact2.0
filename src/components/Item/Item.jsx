@@ -1,8 +1,10 @@
-import React from 'react'
-
-const Item = () => {
+import React from 'react';
+const Item = ({info}) => {
   return (
-    <div>Item</div>
+    <a href="" className='product'>
+      <img src={info.imgage} alt="" />
+      <p>{info.title}</p>
+    </a>
   )
 }
 
