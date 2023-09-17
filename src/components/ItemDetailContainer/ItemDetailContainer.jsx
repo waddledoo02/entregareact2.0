@@ -3,6 +3,7 @@ import ItemDetail from '../ItemDetail/ItemDetail';
 import laptopnormal from '../Item/imagenes/laptopnormal.png'
 import telefono from '../Item/imagenes/telefono.jpg'
 import tv from '../Item/imagenes/tv.jpg'
+import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = () => {
   const products = [
@@ -19,20 +20,28 @@ const ItemDetailContainer = () => {
       title: "Laptop"
     }
   ];
-const [data,setData] = useState({});
 
-useEffect(()=>{
-const getData = new Promise(resolve=> {
-  setTimeout(() => {
-    resolve(products);
-  }, 3000);
-});
-getData.then(res => setData(res.find(item => item.id === 1)));
-},[])
+  const [data, setData] = useState({});
+  const { idProducto } = useParams();
 
+  useEffect(() => {
+    const getData = new Promise(resolve => {
+      setTimeout(() => {
+        resolve(products);
+      }, 3000);
+    });
+  
+    getData.then(res => {
+      const filteredProduct = res.find(product => product.id === parseInt(idProducto));
+      if (filteredProduct) {
+        setData(filteredProduct);
+      }
+    });
+  }, [idProducto]);
+  
   return (
     <ItemDetail product={data} />
   )
 }
 
-export default ItemDetailContainer
+export default ItemDetailContainer;
