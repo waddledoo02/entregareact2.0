@@ -1,0 +1,355 @@
+p, h2 {
+	padding:10px;
+	margin:0;
+}
+h1 {
+	font-size: 14px;
+	text-transform:uppercase;
+	text-align: right;
+	color: #564b47;
+	background-color: #90897a;
+	padding:5px 15px;
+	margin:0;
+}
+#content {
+	float: left;
+	width: 524px;
+}
+.menuIzquierdo {
+	float: left;
+	width: 300px;
+}
+.menuIzquierdo a{
+	color:red; 
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+}
+.cabecera {
+	color: #000000; 
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#F2F2F2;
+	padding: 12px;
+	text-align: left; 
+	width: 800px;
+}
+.menuSuperior {
+	background-color:#E6E6E6;
+	padding: 8px;
+	text-align: right; 
+	color:red;
+}
+.menuSuperior a {
+	color:black; 
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+}
+.menuPrincipalOpciones {
+	width: 150px;
+	padding: 8px;
+	text-align: left; 
+	color:black;
+}
+.menuPrincipalOpciones a {
+	color:black; 
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+}
+.rich-panel-header {
+	color:#000000; 
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	height: 18px;
+	padding: 5px;
+	background-image: url();	
+	background-color: #F2F2F2;
+	text-transform: uppercase;
+}
+.rich-panel-body{
+	color:black; 
+	font-family:Arial;
+	font-size:14px;
+	font-weight:normal;
+	text-align:left;
+	background-image: url();
+	background-color: black;
+	width: 65%;
+}
+.rich-panel-body-in{
+	color:black; 
+	font-family:Arial;
+	font-size:14px;
+	font-weight:normal;
+	text-align:left;
+}
+.rf-ac{
+	background-color: #CEF6CE;
+}
+.rf-ac-itm-c {
+	color:red;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	height: 18px;
+	padding: 5px;
+	background-image: url();	
+	background-color: #0B4C5F;
+	text-transform: uppercase;
+}
+.panelGridRight {
+	padding:20px;
+	text-align:right;
+}
+.panelGrid {
+	background-image: url(../images/bienvenidos_centro.jpg);
+}
+.panelGrid td {
+    vertical-align: middle;
+	color: #ffffff;
+	font-size:14px;
+	font-weight:bold;
+	text-transform: uppercase;
+	border-style: solid;
+	border-width: 0px ;
+	border-color: red;
+}
+.botones .boton{
+	color: black;
+	background-color:#E6E6E6;
+	background-image:url();
+	text-transform: uppercase;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+}
+.comunidad.boton{
+	color: white;
+	background-color:red;
+	background-image:url();
+	text-transform: uppercase;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	border:0px;
+}
+.inputText {
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:black;
+    background-color: white;
+    background-image:url();
+	padding: 2px;
+}
+.outputText {
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+    vertical-align: bottom;
+	color: #000000;
+	text-transform: uppercase;
+}
+.head2 {
+        background-image: url();
+        background-color: #000000;
+        height: 23px;
+        text-align: center;
+		font-size: 16px;
+        vertical-align: middle;
+        color: #FFFFFF;
+		border:0px;
+}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus { 
+    border-color: #B6D5F7 #B6D5F7 #B6D5F7 #B6D5F7;
+    outline: none;
+    -moz-box-shadow: 0 0 10px #B6D5F7;
+    -webkit-box-shadow: 0 0 10px #B6D5F7;
+    box-shadow: 0 0 10px #B6D5F7;
+}
+input[type="text"], input[type="password"], textarea, select { 
+    border: 1px solid;
+    border-color: #C0C0C0 #E4E4E4 #E4E4E4 #C0C0C0;
+    background: #FFF;
+    padding: 3px 3px;
+    font: 12px Arial, Tahoma, Helvetica, sans-serif;
+    -moz-box-shadow: 0 0 5px #C0C0C0;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px #C0C0C0;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 5px #C0C0C0;
+    border-radius: 5px;
+}
+.tarjetaCenter{
+	text-align: center;
+}
+.linkCenter{
+	text-align: center;
+}	
+.linkCenter a{
+	color:white; 
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding: 20px;
+}
+.linkCenterStand{
+	text-align: center;	
+}
+.linkCenterStand a{
+	color:#FF9900;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding: 20px;	
+}	
+.col1{
+	text-align: left;
+}
+.col2{
+	text-align: left;
+}
+.linkMainMenu a {
+	color:#FF8600; 
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+}
+#messages{
+	margin-top:10px;
+	height: 150px;
+	overflow: auto;
+	width: 710px;
+	border-style:solid;
+	border-width:1px;
+	border-color: #D8D8D8;
+	background-color: #F6E3CE;
+	margin-left:10px;
+}
+#messages p{
+	padding:5px;
+	font-weight:bold;
+	font-size:14px;
+	margin-left:10px;
+}
+#msgTitle{
+	margin-left:10px;
+}
+.version{
+	text-align: left;	
+	color:white;
+	font-family:Arial;
+	font-size:10px;
+}
+
+.tituloModDire {
+  display:block;
+  position: relative;
+  margin:0;   
+  border:1px solid #E0E0E0;
+  padding:5px;   
+  font: bold 16px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;   
+  background-color:#E0E0E0;
+  clear:both;
+  text-align:left; 
+  z-index:88;
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;    
+}
+.txtBoxModDire {
+    font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #5A5655;
+		padding-right: 10px;
+}
+.lblTextModDire {
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	color:black;
+    background-color: white;
+    background-image:url();
+	padding: 2px;
+}
+
+
+
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  padding-top: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  height: 25px;
+  width: 25px;
+  background-color: #b3b3b3;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
