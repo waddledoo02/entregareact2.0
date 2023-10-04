@@ -12,16 +12,19 @@ const ItemListContainer = (props) => {
       id: 1, image: tv,
       title: "Televisor",
       category:"Electrodomesticos",
+      price: 300,
     },
     {
       id: 2, image: telefono,
       title: "Iphone",
       category:"Celulares",
+      price : 400,
     },
     {
       id: 3, image: laptopnormal,
       title: "Laptop",
-      category:"Computadoras"
+      category:"Computadoras",
+      price: 700,
     }
   ];
   console.log(products);

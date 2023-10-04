@@ -9,15 +9,21 @@ const ItemDetailContainer = () => {
   const products = [
     {
       id: 1, image: tv,
-      title: "Televisor"
+      title: "Televisor",
+      price: 300,
+      category:"Electrodomesticos",
     },
     {
       id: 2, image: telefono,
-      title: "Iphone"
+      title: "Iphone",
+      price: 400,
+      category:"Celulares",
     },
     {
       id: 3, image: laptopnormal,
-      title: "Laptop"
+      title: "Laptop",
+      price: 700,
+      category:"Computadoras",
     }
   ];
 
